@@ -75,7 +75,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: rgb(252, 177, 33);
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -83,7 +83,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   outline: none;
   background-color: transparent;
 }
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/rehearsal.png) no-repeat bottom center scroll;
+  background: url(../img/rehearsal-room.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
