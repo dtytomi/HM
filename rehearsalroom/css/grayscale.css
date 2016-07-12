@@ -75,7 +75,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: rgb(252, 177, 33);
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -83,7 +83,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   outline: none;
   background-color: transparent;
 }
@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/rehearsal-room.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -273,38 +273,10 @@ ul.banner-social-buttons {
   margin-top: 0;
 }
 
-/**************************
-*   Pano
-***************************/
-
-.pano {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
+.cycle {
+  background-image: url(../img/rehearsalroom1.jpg);
+  height: 512px;
   cursor: move;
-}
-.pano .controls {
-  position: relative;
-  top: 40%;
-}
-.pano .controls a {
-  position: absolute;
-  display: inline-block;
-  text-decoration: none;
-  color: #eee;
-  font-size: 3em;
-  width: 20px;
-  height: 20px;
-}
-.pano .controls a.left {
-  left: 10px;
-}
-.pano .controls a.right {
-  right: 10px;
-}
-.pano.moving .controls a {
-  opacity: 0.4;
-  color: #eee;
 }
 
 @media (max-width: 1199px) {
