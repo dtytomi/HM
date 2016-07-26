@@ -99,10 +99,10 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	padding:230px 0;
 }
 .logo{
-	width:130px;
+	width:350px;
 	margin:0 auto 35px;
 }
 .header h1{
@@ -467,7 +467,7 @@ border: 2px solid #fff;
 .c-logo-part{
 	background:#7cc576;
 	padding:25px 0;
-    filter: alpha(opacity=60);
+  filter: alpha(opacity=60);
 }
 .c-logo-part ul{
 	padding:0;
@@ -490,6 +490,23 @@ border: 2px solid #fff;
 	margin-bottom:40px;
 }
 
+/*Overlay*/
+.img-overlay {
+    position: relative;
+    max-width: 500px;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.31);
+    color: #fff;
+    padding: 50%;
+    padding: 50%;
+}
 
 /* Team
 ---------------------------------*/
