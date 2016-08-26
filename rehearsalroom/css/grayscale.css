@@ -69,7 +69,7 @@ a:focus {
   width:50px;
   top:50%;
   z-index: 12;
-  /*left:2%;*/
+  right:2%;
 }
 
 .social-link{
@@ -437,6 +437,10 @@ ul.banner-social-buttons {
 .faq {
   border-bottom: #FFC107 1px solid;
   width: 70px;
+}
+
+.faq-nb {
+  color: #e96656;
 }
 
 footer {
