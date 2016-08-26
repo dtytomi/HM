@@ -18,12 +18,17 @@ function init() {
         styles:[ {
             featureType:"water",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 17
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -31,12 +36,17 @@ function init() {
         {
             featureType:"landscape",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 20
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -44,12 +54,17 @@ function init() {
         {
             featureType:"road.highway",
             elementType:"geometry.fill",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 17
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -57,14 +72,18 @@ function init() {
         {
             featureType:"road.highway",
             elementType:"geometry.stroke",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 29
-            }
-            ,
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
+            },
             {
                 weight: .2
             }
@@ -74,12 +93,17 @@ function init() {
         {
             featureType:"road.arterial",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 18
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -87,12 +111,17 @@ function init() {
         {
             featureType:"road.local",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 16
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -100,12 +129,17 @@ function init() {
         {
             featureType:"poi",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 21
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -117,27 +151,28 @@ function init() {
             }
             ,
             {
-                color: "#000000"
+                "hue": "#00d4ff" 
             }
             ,
             {
-                lightness: 16
+                "lightness": -20 
             }
             ]
         }
         ,
         {
             elementType:"labels.text.fill",
-            stylers:[ {
-                saturation: 36
-            }
-            ,
-            {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 40
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -153,12 +188,17 @@ function init() {
         {
             featureType:"transit",
             elementType:"geometry",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 19
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -166,12 +206,17 @@ function init() {
         {
             featureType:"administrative",
             elementType:"geometry.fill",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 20
+            stylers:[ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }
@@ -179,16 +224,17 @@ function init() {
         {
             featureType:"administrative",
             elementType:"geometry.stroke",
-            stylers:[ {
-                color: "#000000"
-            }
-            ,
-            {
-                lightness: 17
-            }
-            ,
-            {
-                weight: 1.2
+            "stylers": [ { 
+                "hue": "#00d4ff" 
+            },
+            { 
+                "saturation": 60 
+            },
+            { 
+                "lightness": -20 
+            },
+            { 
+                "gamma": 1.51 
             }
             ]
         }

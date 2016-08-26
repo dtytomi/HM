@@ -64,7 +64,7 @@ body {
 }
 h2{
 	font-size:34px;
-	color:#222222;
+	color: #404040;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -91,6 +91,7 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+	color: #727272;
 }
 
 /* Header Styles
@@ -207,7 +208,7 @@ color: #fff;
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: #f16c1f;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -488,7 +489,7 @@ img {
 ----------------------------------*/
 .about {
 	font-weight: 600;
-  color: black;
+  color: #404040;
 }
 /* Clients
 ---------------------------------*/
